@@ -1,0 +1,70 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude:
+  - .gitignore,
+  - build_site.bash
+  - README.md
+  - test_site.bash
+  - upload.bash
+  - presentations
+  - scripts
+
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "ROSCon España 2025"
+keywords:    "ROSCon España, robot, robotics, Robot Operating System, ROS"
+description: "The annual ROS developer conference for Spain."
+source_link: "http://localhost:4000"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: UA-????????-?? ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#4d235e'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+  red:       '#BF4040'
+  logo_green: '#7F9686'
+  logo_blue: '#00818e'
+  logo_orange: '#ED906E'
+  logo_yellow: '#F5CA85'
+  logo_purple: '#92468E'
+  logo_purple2: '#542762'
+
+
+# Output directory to match server directory
+destination: '2025'
+baseurl: '/2025'
+
+
+# variables used throughout the site for consistency.
+# also with an eye for avoiding copy and paste issues porting forward.
+nth_roscon: 'twelveth'
+roscon_year: '2025'
+roscon_event: 'España'
+proposals_talks_deadline: 'X de X del 2025'
+proposals_workshops_deadline: 'X de X del 2025'
+early_registration_start: 'X de X del 2025'
+statement_acceptance_talks: 'X de X del 2025'
+statement_acceptance_workshops: 'X de X del 2025'
+early_registration_deadline: 'X de X del 2025'
+late_registration: 'X de X del 2025'
+event_date: '18 y 19 de Septiembre del 2025'
+roscon_city: 'Barcelona'

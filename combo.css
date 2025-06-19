@@ -1,0 +1,32 @@
+---
+---
+
+a{
+    color:black
+}
+
+/* ## Base */
+{% include css/base.css %}
+/* ## Skeleton */
+{% include css/skeleton.css %}
+/* ## Main */
+{% include css/main.css %}
+/* ## Schedule */
+{% include css/schedule.css %}
+
+.user-action{
+    text-align: center;
+}
+
+
+.stretch{
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+
+

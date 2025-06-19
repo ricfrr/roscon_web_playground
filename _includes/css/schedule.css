@@ -1,0 +1,605 @@
+
+  /* Grid based Schedule
+https://css-tricks.com/building-a-conference-schedule-with-css-grid/
+https://codepen.io/mrwweb/pen/rgPOOd
+*/
+
+/*************************
+ * GRID SCHEDULE LAYOUT
+ *************************/
+
+
+ @media screen and (min-width:700px) {
+	.schedule_3tracks {
+		display: grid;
+		grid-gap: 1em;
+		grid-template-rows:
+		[tracks] auto
+
+		[time-0800] auto
+		[time-0805] auto
+		[time-0810] auto
+		[time-0815] auto
+		[time-0820] auto
+		[time-0825] auto
+		[time-0830] auto
+		[time-0835] auto
+		[time-0840] auto
+		[time-0845] auto
+		[time-0850] auto
+		[time-0855] auto
+		[time-0900] auto
+		[time-0905] auto
+		[time-0910] auto
+		[time-0915] auto
+		[time-0920] auto
+		[time-0925] auto
+		[time-0930] auto
+		[time-0935] auto
+		[time-0940] auto
+		[time-0945] auto
+		[time-0950] auto
+		[time-0955] auto
+		[time-1000] auto
+		[time-1005] auto
+		[time-1010] auto
+		[time-1015] auto
+		[time-1020] auto
+		[time-1025] auto
+		[time-1030] auto
+		[time-1035] auto
+		[time-1040] auto
+		[time-1045] auto
+		[time-1050] auto
+		[time-1055] auto
+		[time-1100] auto
+		[time-1105] auto
+		[time-1110] auto
+		[time-1115] auto
+		[time-1120] auto
+		[time-1125] auto
+		[time-1130] auto
+		[time-1135] auto
+		[time-1140] auto
+		[time-1145] auto
+		[time-1150] auto
+		[time-1155] auto
+		[time-1200] auto
+		[time-1205] auto
+		[time-1210] auto
+		[time-1215] auto
+		[time-1220] auto
+		[time-1225] auto
+		[time-1230] auto
+		[time-1235] auto
+		[time-1240] auto
+		[time-1245] auto
+		[time-1250] auto
+		[time-1255] auto
+		[time-1300] auto
+		[time-1305] auto
+		[time-1310] auto
+		[time-1315] auto
+		[time-1320] auto
+		[time-1325] auto
+		[time-1330] auto
+		[time-1335] auto
+		[time-1340] auto
+		[time-1345] auto
+		[time-1350] auto
+		[time-1355] auto
+		[time-1400] auto
+		[time-1405] auto
+		[time-1410] auto
+		[time-1415] auto
+		[time-1420] auto
+		[time-1425] auto
+		[time-1430] auto
+		[time-1435] auto
+		[time-1440] auto
+		[time-1445] auto
+		[time-1450] auto
+		[time-1455] auto
+		[time-1500] auto
+		[time-1505] auto
+		[time-1510] auto
+		[time-1515] auto
+		[time-1520] auto
+		[time-1525] auto
+		[time-1530] auto
+		[time-1535] auto
+		[time-1540] auto
+		[time-1545] auto
+		[time-1550] auto
+		[time-1555] auto
+		[time-1600] auto
+		[time-1605] auto
+		[time-1610] auto
+		[time-1615] auto
+		[time-1620] auto
+		[time-1625] auto
+		[time-1630] auto
+		[time-1635] auto
+		[time-1640] auto
+		[time-1645] auto
+		[time-1650] auto
+		[time-1655] auto
+		[time-1700] auto
+		[time-1705] auto
+		[time-1710] auto
+		[time-1715] auto
+		[time-1720] auto
+		[time-1725] auto
+		[time-1730] auto
+		[time-1735] auto
+		[time-1740] auto
+		[time-1745] auto
+		[time-1750] auto
+		[time-1755] auto
+		[time-1800] auto
+		[time-1805] auto
+		[time-1810] auto
+		[time-1815] auto
+		[time-1820] auto
+		[time-1825] auto
+		[time-1830] auto
+		[time-1835] auto
+		[time-1840] auto
+		[time-1845] auto
+		[time-1850] auto
+		[time-1855] auto
+		[time-1900] auto
+		[time-1905] auto
+		[time-1910] auto
+		[time-1915] auto
+		[time-1920] auto
+		[time-1925] auto
+		[time-1930] auto
+		[time-1935] auto
+		[time-1940] auto
+		[time-1945] auto
+		[time-1950] auto
+		[time-1955] auto
+		[time-2000] auto
+		[time-2005] auto
+		[time-2010] auto
+		[time-2015] auto
+		[time-2020] auto
+		[time-2025] auto
+		[time-2030] auto
+		[time-2035] auto
+		[time-2040] auto
+		[time-2045] auto
+		[time-2050] auto
+		[time-2055] auto
+		[time-2100] auto
+		[time-2105] auto
+		[time-2110] auto
+		[time-2115] auto
+		[time-2120] auto
+		[time-2125] auto
+
+		;
+			/* Note 1:
+			Use 24hr time for gridline names for simplicity
+			Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+			Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+			*/
+
+		grid-template-columns:
+			[times] 4em
+			[track-1-start] 1fr
+			[track-1-end track-2-start] 1fr
+			[track-2-end track-3-start] 1fr
+			[track-3-end];
+	}
+}
+
+ @media screen and (min-width:700px) {
+	.schedule_2tracks {
+		display: grid;
+		grid-gap: 1em;
+		grid-template-rows:
+		[tracks] auto
+
+		[time-0830] auto
+		[time-0835] auto
+		[time-0840] auto
+		[time-0845] auto
+		[time-0850] auto
+		[time-0855] auto
+		[time-0900] auto
+		[time-0905] auto
+		[time-0910] auto
+		[time-0915] auto
+		[time-0920] auto
+		[time-0925] auto
+		[time-0930] auto
+		[time-0935] auto
+		[time-0940] auto
+		[time-0945] auto
+		[time-0950] auto
+		[time-0955] auto
+		[time-1000] auto
+		[time-1005] auto
+		[time-1010] auto
+		[time-1015] auto
+		[time-1020] auto
+		[time-1025] auto
+		[time-1030] auto
+		[time-1035] auto
+		[time-1040] auto
+		[time-1045] auto
+		[time-1050] auto
+		[time-1055] auto
+		[time-1100] auto
+		[time-1105] auto
+		[time-1110] auto
+		[time-1115] auto
+		[time-1120] auto
+		[time-1125] auto
+		[time-1130] auto
+		[time-1135] auto
+		[time-1140] auto
+		[time-1145] auto
+		[time-1150] auto
+		[time-1155] auto
+		[time-1200] auto
+		[time-1205] auto
+		[time-1210] auto
+		[time-1215] auto
+		[time-1220] auto
+		[time-1225] auto
+		[time-1230] auto
+		[time-1235] auto
+		[time-1240] auto
+		[time-1245] auto
+		[time-1250] auto
+		[time-1255] auto
+		[time-1300] auto
+		[time-1305] auto
+		[time-1310] auto
+		[time-1315] auto
+		[time-1320] auto
+		[time-1325] auto
+		[time-1330] auto
+		[time-1335] auto
+		[time-1340] auto
+		[time-1345] auto
+		[time-1350] auto
+		[time-1355] auto
+		[time-1400] auto
+		[time-1405] auto
+		[time-1410] auto
+		[time-1415] auto
+		[time-1420] auto
+		[time-1425] auto
+		[time-1430] auto
+		[time-1435] auto
+		[time-1440] auto
+		[time-1445] auto
+		[time-1450] auto
+		[time-1455] auto
+		[time-1500] auto
+		[time-1505] auto
+		[time-1510] auto
+		[time-1515] auto
+		[time-1520] auto
+		[time-1525] auto
+		[time-1530] auto
+		[time-1535] auto
+		[time-1540] auto
+		[time-1545] auto
+		[time-1550] auto
+		[time-1555] auto
+		[time-1600] auto
+		[time-1605] auto
+		[time-1610] auto
+		[time-1615] auto
+		[time-1620] auto
+		[time-1625] auto
+		[time-1630] auto
+		[time-1635] auto
+		[time-1640] auto
+		[time-1645] auto
+		[time-1650] auto
+		[time-1655] auto
+		[time-1700] auto
+		[time-1705] auto
+		[time-1710] auto
+		[time-1715] auto
+		[time-1720] auto
+		[time-1725] auto
+		[time-1730] auto
+		[time-1735] auto
+		[time-1740] auto
+		[time-1745] auto
+		[time-1750] auto
+		[time-1755] auto
+		[time-1800] auto
+		[time-1805] auto
+		[time-1810] auto
+		[time-1815] auto
+		[time-1820] auto
+		[time-1825] auto
+		[time-1830] auto
+		[time-1835] auto
+		[time-1840] auto
+		[time-1845] auto
+		[time-1850] auto
+		[time-1855] auto
+		[time-1900] auto
+		[time-1905] auto
+		[time-1910] auto
+		[time-1915] auto
+		[time-1920] auto
+		[time-1925] auto
+		[time-1930] auto
+		[time-1935] auto
+		[time-1940] auto
+		[time-1945] auto
+		[time-1950] auto
+		[time-1955] auto
+		[time-2000] auto
+		[time-2005] auto
+		[time-2010] auto
+		[time-2015] auto
+		[time-2020] auto
+		[time-2025] auto
+		[time-2030] auto
+		[time-2035] auto
+		[time-2040] auto
+		[time-2045] auto
+		[time-2050] auto
+		[time-2055] auto
+		[time-2100] auto
+		[time-2105] auto
+		[time-2110] auto
+		[time-2115] auto
+		[time-2120] auto
+		[time-2125] auto
+		[time-2130] auto
+		[time-2135] auto
+		[time-2140] auto
+		[time-2145] auto
+		[time-2150] auto
+		[time-2155] auto
+		;
+	/* Note 1:
+			Use 24hr time for gridline names for simplicity
+
+			Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+			Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+			*/
+
+		grid-template-columns:
+			[times] 4em
+			[track-1-start] 1fr
+			[track-1-end track-2-start] 1fr
+			[track-2-end];
+	}
+}
+
+.time-slot {
+    grid-column: times;
+    text-decoration: none;
+	margin: 0;
+	font-weight: bold;
+	font-size: .75em;
+}
+
+.track-slot {
+	display: none; /* hidden on small screens and browsers without grid support */
+	font-weight: bold;
+	font-size: 1em;
+}
+
+@supports( display:grid ) {
+	@media screen and (min-width:700px) {
+		.track-slot {
+			display: block;
+			padding: 10px 5px 5px;
+			position: sticky;
+			top: 69px; /* Matches height of top navigation TODO(tfoote) support wrapping etc*/
+			background-color: rgba(255, 189, 127, 0.9);
+			text-align: center;
+		}
+	}
+}
+
+/* Small-screen & fallback styles */
+.session {
+
+	margin-bottom:  1em;
+}
+
+@supports( display:grid ) {
+	@media screen and (min-width: 700px) {
+		.session {
+			margin: 0;
+		}
+	}
+}
+
+/*************************
+ * VISUAL STYLES
+ * Design-y stuff ot particularly important to the demo
+ *************************/
+body {
+	padding: 50px;
+	max-width: 1100px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.session {
+	padding: .5em;
+	border-radius: 2px;
+	font-size: 14px;
+	box-shadow:
+		rgba(255,255,255,.6) 1px 1px 0,
+		rgba(0,0,0,.3) 4px 4px 0;
+	text-align: justify;
+}
+
+
+.session-title,
+.session-time,
+.session-track,
+.session-presenter,
+.session-website,
+.session-video,
+.session-slides,
+.session-description {
+    display: block;
+    text-decoration: none;
+}
+
+.session-title {
+	margin: 0;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.session-presenter {
+	margin: 1em;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+}
+
+.session-time {
+	float: right;
+}
+
+.session-video {
+	float: right;
+	padding-right: 5%;
+	padding-right: 20%;
+	margin-bottom: 1rem;
+}
+
+.session-slides {
+	padding-left: 20%;
+	padding-bottom: 1rem;
+}
+
+
+.btn-black{
+	background-color: white;
+	font-weight: 900;
+	margin-bottom: 0.5rem;
+}
+
+.btn-white{
+	background-color: white;
+	font-weight: 900;
+	color: black;
+}
+
+summary {
+	text-align: center;
+	font-weight: bold;
+
+	border:1px solid #CCC;
+	border-radius: 25px;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+	cursor:pointer;
+	vertical-align:middle;
+	padding: 5px;
+}
+
+summary:hover {
+	color:#444;
+	border-color: white;
+	background:#cccccc80;
+}
+
+details[open] summary {
+	display:none;
+}
+
+.session p, .session ol, .session ul {
+	font-size: 1em;
+	padding: 0 0%;
+}
+
+.session-link {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 1em;
+}
+
+
+.video-link {
+    margin: 0;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.big{
+	margin: 0;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+/* .session-title a { */
+/* 	color: #fff; */
+/* 	text-decoration-style: dotted; */
+
+/* 	&:hover { */
+/* 		font-style: italic; */
+/* 	} */
+
+/* 	&:focus { */
+/* 		outline: 2px dotted rgba(255,255,255,.8); */
+/* 	} */
+/* } */
+
+.track-1 {
+	background-color: #1259B2;
+	color: #fff;
+}
+
+.track-2 {
+	background-color: #687f00;
+	color: #fff;
+}
+
+.track-3 {
+	background-color: #544D69;
+	color: #fff;
+}
+
+.track-4 {
+	background-color: #c35500;
+	color: #fff;
+}
+
+.track-all {
+	justify-content: center;
+	align-items: center;
+	background: #ccc;
+	color: #000;
+	box-shadow: none;
+}
+
+.text {
+	max-width: 750px;
+	font-size: 18px;
+	margin: 0 auto 50px;
+}
+
+.meta {
+	color: #555;
+	font-style: italic;
+}
+
+/* .meta a { */
+/* 	color: #555; */
+/* } */
+
+hr {
+	margin: 40px 0;
+}
