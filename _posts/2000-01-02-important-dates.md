@@ -1,7 +1,7 @@
 ---
 title: "Fechas"
 bg: logo_yellow
-color: logo_purple2
+color: white
 style: center
 fa-icon: calendar
 published: true
@@ -13,15 +13,15 @@ published: true
 
 <br>
 
-{% if site.proposals_talks_deadline %}
-### Plazo para propuestas de charlas
-{{ site.proposals_talks_deadline }}
+{% if site.proposals_talks_start %}
+### Apertura de propuestas de charlas
+{{ site.proposals_talks_start }}
 
 <br>
 
-{% if site.proposals_workshops_deadline %}
-### Plazo para propuestas de workshops / tutorials
-{{ site.proposals_workshops_deadline }}
+{% if site.proposals_workshops_start %}
+### Apertura de propuestas de workshops / tutorials
+{{ site.proposals_workshops_start }}
 {% endif %}
 
 <br>
@@ -30,6 +30,13 @@ published: true
 {% if site.early_registration_start %}
 ### Apertura registro previo
 {{ site.early_registration_start }}
+{% endif %}
+
+<br>
+
+{% if site.proposals_deadline %}
+### Deadline para propuestas de charlas / workshops / tutorials
+{{ site.proposals_deadline }}
 {% endif %}
 
 <br>
