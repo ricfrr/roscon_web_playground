@@ -27,9 +27,9 @@ published: true
 <br>
 
 {% endif %}
-{% if site.early_registration_start %}
-### Apertura registro previo
-{{ site.early_registration_start }}
+{% if site.registration_start %}
+### Registro previo - Reserva tu plaza
+{{ site.registration_start }}
 {% endif %}
 
 <br>
@@ -55,7 +55,7 @@ published: true
 
 <br>
 
-{% if site.early_registration_deadline %}
+<!-- {% if site.early_registration_deadline %}
 ### Fin del registro previo
 {{ site.early_registration_deadline }}
 {% endif %}
@@ -67,7 +67,7 @@ published: true
 {{ site.late_registration }}
 {% endif %}
 
-<br>
+<br> -->
 
 {% if site.event_date %}
 ### Día del evento
