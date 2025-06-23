@@ -1,7 +1,7 @@
 ---
 title: "Fechas"
 bg: logo_yellow
-color: white
+color: black
 style: center
 fa-icon: calendar
 published: true
