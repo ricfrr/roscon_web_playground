@@ -223,7 +223,8 @@ nav ul li:hover, nav ul li.active {
   position: static;
   margin-top: -8px;
 }
-.sectiondivider .fa-circle { color: #fff; }
+.sectiondivider .fa-circle { color: {{ site.colors.logo_dark }}; }
+.sectiondivider .fa-stack .fa-stack-1x { color: {{ site.colors.white }}; }
 
 .sectiondivider h5 {
   font-size:15px;
@@ -236,6 +237,7 @@ nav ul li:hover, nav ul li.active {
   display:block;
   z-index:6;
   width:240px;
+  color: {{ site.colors.white }};
 }
 
 .sectiondivider.imaged {

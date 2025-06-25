@@ -828,7 +828,7 @@ nav ul li:hover, nav ul li.active {
   position: static;
   margin-top: -8px;
 }
-.sectiondivider .fa-circle { color: #fff; }
+.sectiondivider .fa-circle { color: #1c3331; }
 
 .sectiondivider h5 {
   font-size:15px;
