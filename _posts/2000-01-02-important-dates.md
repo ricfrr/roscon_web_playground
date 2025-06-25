@@ -1,7 +1,7 @@
 ---
 title: "Fechas"
-bg: logo_yellow
-color: black
+bg: eurecat_back_2
+color: white
 style: center
 fa-icon: calendar
 published: true

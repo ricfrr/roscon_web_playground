@@ -53,6 +53,7 @@ colors:
   logo_blue3: '#bedee8'
   logo_blue4: '#5a5b5b'
   logo_blue5: '#122e7a'
+  eurecat_back_2 : '#a3b568'
 
 
 # Output directory to match server directory
