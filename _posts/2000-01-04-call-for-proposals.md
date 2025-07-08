@@ -57,7 +57,7 @@ También se considerará el equilibrio entre tema y duración.
 </center> -->
 
 <center>
-<a href=""><img src="./img/workshop.png" class="workshop-img" alt="Propuesta Workshop" style="width:30%"/></a>
+<a href=""><img src="./img/workshop.png" class="workshop-img" alt="Propuesta Workshop"/></a>
 </center>
 <br>
 
@@ -75,7 +75,7 @@ También se considerará el equilibrio entre tema y duración.
 </center> -->
 
 <center>
-<a href=""><img src="./img/charla.png" class="charla-img" alt="Propuesta Charla" style="width:30%"/></a>
+<a href=""><img src="./img/charla.png" class="charla-img" alt="Propuesta Charla"/></a>
 </center>
 
 

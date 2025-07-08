@@ -423,3 +423,17 @@ nav ul li:hover, nav ul li.active {
     font-weight: 900;
     text-align: center;
 }
+
+.charla-img,
+.workshop-img {
+  max-width: 30% !important;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .charla-img,
+  .workshop-img {
+    max-width: 80% !important;
+  }
+}
