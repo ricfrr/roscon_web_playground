@@ -10,7 +10,7 @@ published: true
 # CfP ROSCon {{site.roscon_event}} {{site.roscon_year}} 
 
 
-La edición 2025 de ROSCon España se celebrará en Barcelona, los días 3 y 4 de noviembre, y promete ser el punto de encuentro para todos los apasionados por ROS (Robot Operating System) en nuestra comunidad hispanohablante. 
+La edición 2025 de ROSCon España se celebrará en Barcelona, los días 4 y 5 de noviembre, y promete ser el punto de encuentro para todos los apasionados por ROS (Robot Operating System) en nuestra comunidad hispanohablante. 
 
 Al igual que en ediciones anteriores, el contenido lo crea la comunidad. Invitamos a desarrolladores, investigadores y empresas a compartir su trabajo, ideas y herramientas con el resto del ecosistema ROS. Este año buscamos propuestas para dos tipos de sesiones: 
 - **Workshops/Tutoriales** (martes 4 de noviembre): El primer día estará dedicado a workshops y sesiones prácticas, orientadas a experiencias participativas con fuerte componente técnico. Es una oportunidad para enseñar desde dentro: hands-on con herramientas, frameworks, paquetes, entornos o metodologías. ¡Más profundidad, más código, más interacción! 

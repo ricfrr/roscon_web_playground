@@ -35,7 +35,21 @@ published: true
 <br> -->
 
 {% if site.proposals_deadline %}
-### Deadline para propuestas de charlas / workshops / tutorials
+### Deadline para propuestas de charlas 
+{{ site.proposals_deadline }}
+{% endif %}
+
+<br>
+
+{% if site.proposals_deadline %}
+### Deadline para propuestas de workshops 
+{{ site.proposals_deadline }}
+{% endif %}
+
+<br>
+
+{% if site.proposals_deadline %}
+### Deadline para propuestas de tutorials
 {{ site.proposals_deadline }}
 {% endif %}
 
@@ -49,7 +63,14 @@ published: true
 <br>
 
 {% if site.statement_acceptance_workshops %}
-### Comunicación de aceptación de las workshops/tutoriales
+### Comunicación de aceptación de las workshops
+{{ site.statement_acceptance_workshops }}
+{% endif %}
+
+<br>
+
+{% if site.statement_acceptance_workshops %}
+### Comunicación de aceptación de las tutoriales
 {{ site.statement_acceptance_workshops }}
 {% endif %}
 
