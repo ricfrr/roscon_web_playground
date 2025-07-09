@@ -24,9 +24,9 @@ published: true
 {{ site.proposals_workshops_start }}
 {% endif %}
 
-<!-- <br>
+<br>
 
-{% endif %}
+<!-- {% endif %}
 {% if site.registration_start %}
 ### Registro previo - Reserva tu plaza
 {{ site.registration_start }}
