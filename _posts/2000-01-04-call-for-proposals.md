@@ -65,7 +65,7 @@ También se considerará el equilibrio entre tema y duración.
 
 * Título (máx. 70 caracteres) 
 * Presentador(es) (nombre, afiliación) 
-* Duración deseada (10, 15 o 20 minutos) 
+* Duración deseada (10, 20 o 30 minutos) 
 * Resumen (máx. 100 palabras, visible en el programa) 
 * Descripción técnica: objetivos, estructura, público objetivo, puntos clave 
 * Fecha límite: {{site.proposals_deadline}} 
