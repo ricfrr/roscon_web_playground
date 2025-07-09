@@ -13,7 +13,7 @@ published: true
 
 <br>
 
-{% if site.proposals_talks_start %}
+<!-- {% if site.proposals_talks_start %}
 ### Apertura de propuestas de charlas
 {{ site.proposals_talks_start }}
 
@@ -24,7 +24,7 @@ published: true
 {{ site.proposals_workshops_start }}
 {% endif %}
 
-<br>
+<br> -->
 
 <!-- {% endif %}
 {% if site.registration_start %}
@@ -48,12 +48,12 @@ published: true
 
 <br>
 
-{% if site.proposals_deadline %}
+<!-- {% if site.proposals_deadline %}
 ### Deadline para propuestas de tutorials
 {{ site.proposals_deadline }}
 {% endif %}
 
-<br>
+<br> -->
 
 {% if site.statement_acceptance_talks %}
 ### Comunicación de aceptación de las charlas
@@ -69,12 +69,12 @@ published: true
 
 <br>
 
-{% if site.statement_acceptance_workshops %}
+<!-- {% if site.statement_acceptance_workshops %}
 ### Comunicación de aceptación de las tutoriales
 {{ site.statement_acceptance_workshops }}
 {% endif %}
 
-<br>
+<br> -->
 
 <!-- {% if site.early_registration_deadline %}
 ### Fin del registro previo
@@ -90,9 +90,18 @@ published: true
 
 <br> -->
 
+{% if site.statement_registration_open %}
+### Apertura de registro
+{{ site.statement_registration_open }}
+{% endif %}
+
+<br>
+
 {% if site.event_date %}
 ### Día del evento
 {{ site.event_date }}
 {% endif %}
-
 <br>
+
+
+
