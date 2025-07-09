@@ -10,11 +10,11 @@ published: true
 # CfP ROSCon {{site.roscon_event}} {{site.roscon_year}} 
 
 
-La edición 2025 de ROSCon España se celebrará en Barcelona, los días 15 y 16 de septiembre, y promete ser el punto de encuentro para todos los apasionados por ROS (Robot Operating System) en nuestra comunidad hispanohablante. 
+La edición 2025 de ROSCon España se celebrará en Barcelona, los días 3 y 4 de noviembre, y promete ser el punto de encuentro para todos los apasionados por ROS (Robot Operating System) en nuestra comunidad hispanohablante. 
 
 Al igual que en ediciones anteriores, el contenido lo crea la comunidad. Invitamos a desarrolladores, investigadores y empresas a compartir su trabajo, ideas y herramientas con el resto del ecosistema ROS. Este año buscamos propuestas para dos tipos de sesiones: 
-- **Workshops/Tutoriales** (Lunes 15 de septimebre): El primer día estará dedicado a workshops y sesiones prácticas, orientadas a experiencias participativas con fuerte componente técnico. Es una oportunidad para enseñar desde dentro: hands-on con herramientas, frameworks, paquetes, entornos o metodologías. ¡Más profundidad, más código, más interacción! 
-- **Charlas Técnicas** (Martes 16 de septiembre): El segundo día estará centrado en presentaciones en vivo. Las charlas pueden tener una duración de 10, 15 o 20 minutos (más un breve turno de preguntas), y deben enfocarse en contenido técnico, casos de uso, lecciones aprendidas o desarrollos relevantes en el ecosistema ROS. 
+- **Workshops/Tutoriales** (martes 4 de noviembre): El primer día estará dedicado a workshops y sesiones prácticas, orientadas a experiencias participativas con fuerte componente técnico. Es una oportunidad para enseñar desde dentro: hands-on con herramientas, frameworks, paquetes, entornos o metodologías. ¡Más profundidad, más código, más interacción! 
+- **Charlas Técnicas** (miercoles 5 de noviembre): El segundo día estará centrado en presentaciones en vivo. Las charlas pueden tener una duración de 10, 20 o 30 minutos (más un breve turno de preguntas), y deben enfocarse en contenido técnico, casos de uso, lecciones aprendidas o desarrollos relevantes en el ecosistema ROS. 
 
 ## ¿Qué tipo de contenido buscamos? 
 
@@ -68,7 +68,7 @@ También se considerará el equilibrio entre tema y duración.
 * Duración deseada (10, 15 o 20 minutos) 
 * Resumen (máx. 100 palabras, visible en el programa) 
 * Descripción técnica: objetivos, estructura, público objetivo, puntos clave 
-* Fecha límite: {{site.deadline_proposals}} 
+* Fecha límite: {{site.proposals_deadline}} 
 
 <!-- <center>
 <a href="https://forms.gle/4pRWU676JufvrMkD9"><img src="./img/charla.png" class="charla-img" alt="Propuesta Charla" style="width:30%"/></a>

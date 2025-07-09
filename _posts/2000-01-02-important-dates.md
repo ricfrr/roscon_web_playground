@@ -24,7 +24,7 @@ published: true
 {{ site.proposals_workshops_start }}
 {% endif %}
 
-<br>
+<!-- <br>
 
 {% endif %}
 {% if site.registration_start %}
@@ -32,7 +32,7 @@ published: true
 {{ site.registration_start }}
 {% endif %}
 
-<br>
+<br> -->
 
 {% if site.proposals_deadline %}
 ### Deadline para propuestas de charlas / workshops / tutorials
