@@ -63,7 +63,7 @@ published: true
 <br>
 
 {% if site.statement_acceptance_workshops %}
-### Comunicación de aceptación de las workshops
+### Comunicación de aceptación de los workshops
 {{ site.statement_acceptance_workshops }}
 {% endif %}
 
