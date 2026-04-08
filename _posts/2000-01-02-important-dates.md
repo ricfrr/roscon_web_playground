@@ -4,7 +4,7 @@ bg: eurecat_back_2
 color: white
 style: center
 fa-icon: calendar
-published: true
+published: false
 ---
 
 # ROSCon {{site.roscon_event}} {{site.roscon_year}}
@@ -36,14 +36,14 @@ published: true
 
 {% if site.proposals_deadline %}
 ### Deadline para propuestas de charlas 
-{{ site.proposals_deadline }}
+{{ site.proposals_deadline }} | {{site.new_proposal_deadline}}
 {% endif %}
 
 <br>
 
 {% if site.proposals_deadline %}
 ### Deadline para propuestas de workshops 
-{{ site.proposals_deadline }}
+{{ site.proposals_deadline }} | {{site.new_proposal_deadline}}
 {% endif %}
 
 <br>

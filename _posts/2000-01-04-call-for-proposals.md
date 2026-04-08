@@ -4,7 +4,7 @@ bg: logo_blue2
 color: white
 fa-icon: bullhorn
 style: left
-published: true
+published: false
 ---
 
 # CfP ROSCon {{site.roscon_event}} {{site.roscon_year}} 
@@ -50,7 +50,7 @@ También se considerará el equilibrio entre tema y duración.
 * Presentador(es) (nombre, contacto, afiliación) 
 * Resumen (máx. 100 palabras, visible en el programa) 
 * Descripción técnica: objetivos, estructura, público objetivo, recursos necesarios, etc. 
-* Fecha límite: {{site.proposals_deadline}} 
+* Fecha límite: {{site.proposals_deadline}}  {{site.new_proposal_deadline}} 
 
 <!-- <center>
 <a href="https://forms.gle/5mdGtLXuq3f186r1A"><img src="./img/workshop.png" class="workshop-img" alt="Propuesta Workshop" style="width:30%"/></a>
@@ -68,7 +68,7 @@ También se considerará el equilibrio entre tema y duración.
 * Duración deseada (10, 20 o 30 minutos) 
 * Resumen (máx. 100 palabras, visible en el programa) 
 * Descripción técnica: objetivos, estructura, público objetivo, puntos clave 
-* Fecha límite: {{site.proposals_deadline}} 
+* Fecha límite: {{site.proposals_deadline}}   {{site.new_proposal_deadline}}
 
 <!-- <center>
 <a href="https://forms.gle/4pRWU676JufvrMkD9"><img src="./img/charla.png" class="charla-img" alt="Propuesta Charla" style="width:30%"/></a>

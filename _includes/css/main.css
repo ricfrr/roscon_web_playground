@@ -431,9 +431,17 @@ nav ul li:hover, nav ul li.active {
   margin: 0 auto;
 }
 
+.logo-img {
+  width: 60% !important;
+}
+
 @media only screen and (max-width: 767px) {
   .charla-img,
   .workshop-img {
     max-width: 80% !important;
+  }
+  
+  .logo-img {
+    width: 95% !important;
   }
 }
